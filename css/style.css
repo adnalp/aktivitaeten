@@ -6,7 +6,6 @@ body {
     );
     font-family: "Mali", cursive;
     color: #264653;
-    overflow-x: hidden;
 }
 
 .logo {
@@ -35,12 +34,6 @@ body {
     text-align: center;
     margin-top: 1rem;
     max-width: 450px;
-    transition: all 1s;
-}
-
-.welcome:hover {
-    transform: rotate(21deg);
-    color: #264653;
 }
 
 .sun {
@@ -53,9 +46,8 @@ body {
 
 .welcome_header {
     position: absolute;
-    top: 45%;
-    left: 28.5%;
-    transform: rotate(339deg);
+    top: 40%;
+    left: 26.5%;
 }
 
 .welcome_description {
@@ -64,12 +56,7 @@ body {
 
 .activities {
     margin-top: 30rem;
-    margin-bottom: 5rem;
-}
-
-.welcome_click,
-.welcome_click:visited {
-    color: #264653;
+    margin-bottom: 30rem;
 }
 
 .activity {
@@ -79,7 +66,7 @@ body {
 }
 
 .activity img {
-    width: 2rem;
+    height: 2rem;
     float: left;
 }
 
@@ -90,6 +77,87 @@ body {
 
 .activity h6 {
     color: #2a9d8f;
+}
+
+.contact {
+    background-color: #e76f51;
+    border-radius: 2rem;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+a,
+a:visited,
+a:hover {
+    color: #264653;
+    text-decoration: none;
+}
+
+.contact li {
+    margin: 0.5rem;
+}
+
+.contact_deco {
+    border-bottom: 1px solid #264653;
 }
 
 /*

@@ -48,9 +48,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link mr-3" href="#">Seite 1</a>
-                        <a class="nav-item nav-link mr-3" href="#">Seite 2</a>
-                        <a class="nav-item nav-link mr-3" href="#">Seite 3</a>
+                        <a class="nav-item nav-link mr-3" href="#contact"
+                            >Kontakt</a
+                        >
                     </div>
                 </div>
             </nav>
@@ -137,17 +137,60 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Footer -->
+            <div class="container-fluid contact" id="contact">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <ul>
+                            <li>Danke, dass du unsere Webseite besuchst!</li>
+                            <li>
+                                Wir würden uns sehr freuen, wenn du an unseren
+                                Aktivitäten teilnehmen würdest!
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <ul>
+                            <li class="contact_deco">
+                                <a
+                                    href="mailto:karakuecuekesin@gmail.com"
+                                    title="Aktivitäten & Kurse für Kinder und Erwachsene"
+                                    >Mail</a
+                                >
+                            </li>
+                            <li class="contact_deco">
+                                <a href="tel:+4900000000">Anruf</a>
+                            </li>
+                            <li class="contact_deco">
+                                <div class="popup" onclick="myFunction()">
+                                    Ort: Wuppertal<span
+                                        class="popuptext"
+                                        id="myPopup"
+                                        >Heckinghausen</span
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 text-center mt-3 mb-1">
+                        <span class="text-muted"
+                            >Webseite erstellt &copy; von Adnan</span
+                        >
+                    </div>
+                </div>
+            </div>
         </main>
 
-        <!-- Footer -->
-        <footer class="footer mt-auto py-3 bg-light fixed-bottom text-center">
-            <div class="container">
-                <span class="text-muted"
-                    >Webseite erstellt &copy; von Adnan</span
-                >
-            </div>
-        </footer>
-
+        <!-- Popup JavaScript -->
+        <script>
+            // When the user clicks on <div>, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
         <!-- Bootstrap JavaScript -->
         <!-- At the end so the page loads faster -->
         <script
