@@ -5,12 +5,25 @@ body {
         hsla(49, 100%, 81%, 1) 100%
     );
     font-family: "Mali", cursive;
+    color: #264653;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logo {
+    width: 5%;
+}
+
+.footer {
+    opacity: 0;
 }
 
 /*
-    {"Charcoal":"264653",
+    {
+    "Charcoal":"264653",
     "Persian Green":"2a9d8f",
     "Orange Yellow Crayola":"e9c46a",
     "Sandy Brown":"f4a261",
-    "Burnt Sienna":"e76f51"} 
+    "Burnt Sienna":"e76f51"
+    } 
 */
