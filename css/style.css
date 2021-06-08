@@ -78,13 +78,22 @@ body {
 
 .activity img {
     width: 2rem;
+    float: left;
+}
+
+.activity h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.activity h6 {
+    color: #2a9d8f;
 }
 
 /*
     {
     "Charcoal":"264653",
     "Persian Green":"2a9d8f",
-    "Orange Yellow Crayola":"e9c46a",
     "Sandy Brown":"f4a261",
     "Burnt Sienna":"e76f51"
     } 
