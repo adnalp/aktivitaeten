@@ -12,15 +12,73 @@ body {
     width: 2rem;
 }
 
-.welcome {
-    margin-top: 1rem;
-}
-
 .error {
     border: 3px solid #2a9d8f;
     color: #e76f51;
     font-size: 5rem;
 }
+
+.error_img {
+    text-align: center;
+}
+
+.error_img img {
+    margin: 1rem;
+    width: 5rem;
+}
+
+.welcome {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 450px;
+    transition: all 1s;
+}
+
+.welcome:hover {
+    transform: rotate(21deg);
+}
+
+.sun {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 85%;
+    max-width: 450px;
+}
+
+.welcome_header {
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    transform: rotate(339deg);
+}
+
+.welcome_description {
+    margin-top: 1rem;
+}
+
+.activities {
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+}
+
+.welcome_click,
+.welcome_click:visited {
+    color: #264653;
+}
+
+.activity {
+    border: 3px solid #f4a261;
+    padding: 1rem;
+}
+
+.activity_icon {
+    width: 2rem;
+}
+
 /*
     {
     "Charcoal":"264653",
