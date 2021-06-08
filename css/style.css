@@ -6,6 +6,7 @@ body {
     );
     font-family: "Mali", cursive;
     color: #264653;
+    overflow-x: hidden;
 }
 
 .logo {
@@ -74,6 +75,7 @@ body {
 .activity {
     border: 3px solid #f4a261;
     padding: 1rem;
+    margin: 0px 0px -3px -3px;
 }
 
 .activity img {
